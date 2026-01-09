@@ -1,0 +1,92 @@
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: outfit;
+}
+
+.outfit-regular {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.white {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.slate-300 {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.slate-500 {
+    background-color: hsl(216, 15%, 48%);
+}
+
+.slate-900 {
+    background-color: hsl(218, 44%, 22%);
+}
+
+.image-qr-code {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    border: 1px solid var(--slate-500);
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 5px;
+    margin-bottom: 105px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+h3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25%;
+    font-family: outfit;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid var(--slate-500);
+    padding: 15px;
+}
+
+p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.attribution {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: outfit;
+}
+
+.challenge {
+    font-size: 12px;
+}
